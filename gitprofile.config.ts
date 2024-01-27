@@ -141,16 +141,13 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'PCET'S NUTAN MAHARASHTRA
-INSTITUTE OF ENGINEERING
-AND TECHNOLOGY, PUNE',
+      institution: 'PCETS NUTAN MAHARASHTRA INSTITUTE OF ENGINEERINGAND TECHNOLOGY, PUNE',
       degree: 'B.E in Computer Science',
       from: '2021',
       to: '2025',
     },
     {
-      institution: 'ARMY PUBLIC SCHOOL
-PATIALA',
+      institution: 'ARMY PUBLIC SCHOOL PATIALA',
       degree: '12th | CBSE',
       from: '2019',
       to: '2021',
@@ -235,7 +232,7 @@ PATIALA',
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/TejasDhole"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
