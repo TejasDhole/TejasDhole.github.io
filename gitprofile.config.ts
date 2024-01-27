@@ -88,26 +88,23 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Java',
-    'C/C++',
-    'Kotlin',
-    'XML',
-    'Servlet',
-    'JSP',
-    'JDBC',
-    'HTML',
-    'CSS',
-    'DSA',
-    'Android studio',
-    'Git',
-    'Postman',
-    'APIs',
-    'MySQL',
-    'Flutter',
-    'MVVM',
-     'ROOM LIBRARY',
-     'DART',
-     'Firebase',
+     // Programming skills
+    { name: 'Java', domain: 'Programming', color: '#FF5733' },
+    { name: 'C/C++', domain: 'Programming', color: '#3366FF' },
+    { name: 'Kotlin', domain: 'Programming', color: '#FF4081' },
+    { name: 'XML', domain: 'Programming', color: '#4CAF50' },
+    // Add more programming skills...
+
+    // Operating System skills
+    { name: 'Linux', domain: 'Operating System', color: '#795548' },
+    { name: 'Windows', domain: 'Operating System', color: '#2196F3' },
+    // Add more OS skills...
+
+    // Tools skills
+    { name: 'Git', domain: 'Tools', color: '#FFC107' },
+    { name: 'Postman', domain: 'Tools', color: '#FF9800' },
+    // Add more tools...
+
   ],
   experiences: [
     {
