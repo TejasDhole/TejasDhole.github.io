@@ -1,3 +1,4 @@
+import React from 'react';
 import { skeleton } from '../../utils';
 
 const SkillCard = ({
@@ -5,7 +6,7 @@ const SkillCard = ({
   skills,
 }: {
   loading: boolean;
-  skills: string[];
+  skills: { name: string; domain: string }[];
 }) => {
   const renderSkeleton = () => {
     const array = [];
@@ -21,7 +22,7 @@ const SkillCard = ({
   };
 
   return (
-    <div className="card shadow-lg compact bg-base-100">
+    <div className="card rounded-md shadow-md bg-base-100">
       <div className="card-body">
         <div className="mx-3">
           <h5 className="card-title">
@@ -39,9 +40,12 @@ const SkillCard = ({
               : skills.map((skill, index) => (
                   <div
                     key={index}
-                    className="m-1 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-primary bg-opacity-90 rounded-full"
+                    className="m-1 text-xs inline-flex flex-col items-center font-bold leading-sm px-3 py-2 badge-primary bg-opacity-90 rounded-full"
                   >
-                    {skill}
+                    <span className="text-base-content">{skill.name}</span>
+                    <span className="text-xs text-opacity-70">
+                      {skill.domain}
+                    </span>
                   </div>
                 ))}
           </div>
