@@ -67,7 +67,7 @@ const CONFIG = {
   social: {
     linkedin: 'tejas-dhole',
     twitter: '@Tejasdhole13',
-    mastodon: ''
+    mastodon: '',
     Leetcode: 'tejas_22_',
     Hackerank: 'dholetejas039',
     instagram: '',
