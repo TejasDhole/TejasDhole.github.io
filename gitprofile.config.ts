@@ -19,13 +19,13 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['TejasDhole/CRUD-Application', 'TejasDhole/Authentication--project-J2EE-','TejasDhole/BookHub','TejasDhole/Diliciosa','TejasDhole/flutter-firebase_otp_verification'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,110 +33,134 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'BOOKHUB',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Kotlin based android app where all the list of book and their descriptions  ',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: 'https://github.com/TejasDhole/BookHub.git',
         },
         {
-          title: 'Project Name',
+          title: 'Login and Registration System (J2EE)',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Develop secure web application using Servlet,JSP & JDBC',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: 'https://github.com/TejasDhole/Authentication--project-J2EE-.git',
+        },
+        {
+          title: 'CRUD application of android',
+          description:
+            'A simple CRUD Android application that allows users to create, view, edit, and delete posts, featuring upvoting and downvoting functionalities',
+          imageUrl:
+            '',
+          link: 'https://github.com/TejasDhole/CRUD-Application.git',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Tejas Dhole',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    linkedin: 'tejas-dhole',
+    twitter: '@Tejasdhole13',
+    mastodon: ''
+    Leetcode: 'tejas_22_'
+    Hackerank: 'dholetejas039',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '+91 9356705178',
+    email: 'dholetejas039@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Java',
+    'C/C++',
+    'Kotlin',
+    'XML',
+    'Servlet',
+    'JSP',
+    'JDBC',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'DSA',
+    'Android studio',
+    'Git',
+    'Postman',
+    'APIs',
+    'MySQL',
+    'Flutter',
+    'MVVM',
+     'ROOM LIBRARY',
+     'DART',
+     'Firebase',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Liveasy Logistics',
+      position: 'Android intern',
+      from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://liveasy.net.in/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'PHN Technology Pvt Ltd',
+      position: 'Android Intern',
+      from: 'April 2023',
+      to: 'June 2023',
+      companyLink: 'https://phntechnology.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Android App Development',
+      body: '',
+      year: 'February 2023',
+      link: 'https://trainings.internshala.com/view_certificate/94nktk5czei/gvwi7jov8v2/',
+    },
+    {
+      name: 'Technical Aspect of Cyber Security',
+      body: '',
+      year: 'November 2022',
+      link: 'https://drive.google.com/file/d/10fe7cMEXSdC3tfWWkBCJap599OaoRBvy/view',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'PCET'S NUTAN MAHARASHTRA
+INSTITUTE OF ENGINEERING
+AND TECHNOLOGY, PUNE',
+      degree: 'B.E in Computer Science',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'ARMY PUBLIC SCHOOL
+PATIALA',
+      degree: '12th | CBSE',
+      from: '2019',
+      to: '2021',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: , // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
