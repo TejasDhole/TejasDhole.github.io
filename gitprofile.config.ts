@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['TejasDhole/CRUD-Application', 'TejasDhole/Authentication--project-J2EE-','TejasDhole/BookHub','TejasDhole/Diliciosa','TejasDhole/flutter-firebase_otp_verification'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['TejasDhole/CRUD-Application','TejasDhole/flutter-firebase_otp_verification'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -48,14 +48,14 @@ const CONFIG = {
             '',
           link: 'https://github.com/TejasDhole/Authentication--project-J2EE-.git',
         },
-        {
-          title: 'CRUD application of android',
-          description:
-            'A simple CRUD Android application that allows users to create, view, edit, and delete posts, featuring upvoting and downvoting functionalities',
-          imageUrl:
-            '',
-          link: 'https://github.com/TejasDhole/CRUD-Application.git',
-        },
+        // {
+        //   title: 'CRUD application of android',
+        //   description:
+        //     'A simple CRUD Android application that allows users to create, view, edit, and delete posts, featuring upvoting and downvoting functionalities',
+        //   imageUrl:
+        //     '',
+        //   link: 'https://github.com/TejasDhole/CRUD-Application.git',
+        // },
       ],
     },
   },
@@ -95,19 +95,19 @@ const CONFIG = {
     'Servlet',
     'JSP',
     'JDBC',
-    'HTML',
-    'CSS',
-    'DSA',
-    'Android studio',
-    'Git',
-    'Postman',
-    'APIs',
-    'MySQL',
-    'Flutter',
-    'MVVM',
-     'ROOM LIBRARY',
-     'DART',
-     'Firebase',
+    // 'HTML',
+    // 'CSS',
+    // 'DSA',
+    // 'Android studio',
+    // 'Git',
+    // 'Postman',
+    // 'APIs',
+    // 'MySQL',
+    // 'Flutter',
+    // 'MVVM',
+    //  'ROOM LIBRARY',
+    //  'DART',
+    //  'Firebase',
   ],
   experiences: [
     {
